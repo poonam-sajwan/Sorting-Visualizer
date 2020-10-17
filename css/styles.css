@@ -1,0 +1,72 @@
+body{
+  margin: 0;
+  font-family: 'Libre Baskerville', serif;
+  background-image: url('./bck.jpeg');
+}
+#array-container{
+  display: flex;
+  justify-content: center;
+background-color: #799351;
+    border-radius: 10px;
+height: 500px;
+width: 80%;
+margin: 50px 5% 0 0;
+}
+#array-container div{
+      width: 10% !important;
+}
+.home{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      color: #f9fcfb;
+      font-size: 20px;
+      font-weight: bold;
+      background-color: black;
+      margin: 0%;
+}
+
+.algos{
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 30%;
+border-radius: 10px;
+margin: 0 0 5% 30px;
+}
+#newArray{
+  padding: 1vw;
+width: 50%;
+display: flex;
+align-items: center;
+margin: 10px auto;
+justify-content: center;
+border-style: none;
+background-color: #d92027;
+color: white;
+}
+#newArray:hover{
+  background-color: #b8de6f;
+  color:black;
+}
+.algos button{
+  padding: 1vw;
+width: 50%;
+display: flex;
+align-items: center;
+margin: 10px auto;
+justify-content: center;
+border-style: none;
+background-color: white;
+border-radius: 4px;
+font-size: 20px;
+}
+.algos button:hover{
+  background-color: #b8de6f;
+  color: white;
+}
+.content{
+  display: flex;
+}
